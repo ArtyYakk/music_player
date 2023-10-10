@@ -1,0 +1,31 @@
+* {
+    padding: 0%;
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    height: 100%;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 43px;
+    color: #000000;
+    background: #ffffff;
+}
+
+.page_header{
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-image: url("images/nebo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    min-height: 900px;
+}

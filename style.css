@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Kenia&display=swap');
+
+
 * {
     padding: 0%;
     margin: 0;
@@ -27,5 +30,46 @@ body{
     background-size: cover;
 
     width: 100%;
-    min-height: 900px;
+    height: 1024px;
 }
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 130px;
+    
+    padding-top: 25px;
+}
+
+.navigation_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navigation_title{
+    color: #FFF;
+    font-family: Istok Web;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.big_banner{
+    color: #FFF;
+    font-family: Kenia;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   
+    width: 412px;
+    height: 264px;
+    flex-shrink: 0;
+    line-height: 150px;
+}
+
+

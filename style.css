@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Kenia&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Istok+Web&family=Kenia&display=swap');
 
 * {
-    padding: 0%;
+    padding: 0;
     margin: 0;
 }
 
@@ -36,17 +36,19 @@ body{
 .navigation{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 130px;
+    justify-content: space-between;    
+    align-items: flex-start;
     
-    padding-top: 25px;
+    padding-top: 45px;
+    padding-left: 10%;
+    padding-right: 40%;
 }
 
 .navigation_list{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
+    gap: 100px;
 }
 
 .navigation_title{
@@ -56,6 +58,27 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-decoration: none;  
+}
+
+.container_page_header{
+    color:#FFF;
+    width: 99%;
+    height: 86%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+.text_and_banner_list{
+    list-style: none;
+    display: flex;
+    flex-direction:column;
+    gap: 100px;
 }
 
 .big_banner{
@@ -71,5 +94,38 @@ body{
     flex-shrink: 0;
     line-height: 150px;
 }
+
+.company_formed{
+    width: 290px;
+    height: 63px;
+    flex-shrink: 0;
+
+    color: #FFF;
+    font-family: Istok Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.full_phone{
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.cable_picture{  
+  
+    position: absolute;
+    top: 85%;
+    left: 8.5%;
+}
+
+.phone_picture{
+    z-index: 9;   
+}
+
 
 

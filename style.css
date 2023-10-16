@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Kenia&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Istok+Web&family=Kenia&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Istok+Web&family=Karla&family=Kenia&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -78,7 +78,7 @@ body{
     list-style: none;
     display: flex;
     flex-direction:column;
-    gap: 100px;
+    gap: 175px;
 }
 
 .big_banner{
@@ -119,7 +119,7 @@ body{
 .cable_picture{  
   
     position: absolute;
-    top: 85%;
+    top: 81.9%;
     left: 8.5%;
 }
 
@@ -127,5 +127,154 @@ body{
     z-index: 9;   
 }
 
+.page_main_1{
+    width: 100%;
+    height: 1024px;
+    background: #D53005;
+}
+
+.music_ref_container{
+    width: fit-content;
+    height: fit-content;    
+    padding-left: 7%;
+    padding-top: 5%;
+
+}
+
+.music_ref{
+    color: #FFF;
+    font-family: Karla;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    
+}
+
+.main_1_container{
+    height: 905px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.listen_find_list{
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+
+    padding-left: 122px;
+    list-style: none;
+
+}
+
+.listen_find_element{
+    width: 382px;
+    height: 83px;
+    flex-shrink: 0;
+
+
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: radial-gradient(2086.98% 134.85% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+    box-shadow: -4px -4px 30px 0px rgba(255, 255, 255, 0.10), 4px 4px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
+.listen_find_text{
+    color: #FFF;
+    font-family: Karla;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 19px 70px;
+}
+
+.vinil_picture{
+   padding-left: 400px;
+}
+
+.page_main_2{
+    width: 100%;
+    height: 1024px;
+    background: linear-gradient(180deg, #D53005 0%, #000 6.04%);
+}
+
+.about_container{
+    padding-top: 5%;
+    padding-left: 7%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.about{
+    color: #FFF;
+    font-family: Karla;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.about_text_container{
+    width: 100%;
+    height: 885px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_text{
+    color: #FFF;
+    font-family: Karla;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.page_main_3{
+    width: 100%;
+    height: 1024px;
+    background: #D53005;
+}
+
+.store_container{
+    width: fit-content;
+    height: fit-content;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.store_ref{
+    color: #FFF;
+    font-family: Karla;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.container_main_3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.downloads_store_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.buttons_list{
+    
+}
 
 
